@@ -1,10 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "alt+f12",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
         "key": "cmd+alt+left",
         "command": "workbench.action.navigateBack"
     },
@@ -41,5 +37,14 @@
     {
         "key": "ctrl+shift+q",
         "command": "workbench.action.terminal.kill"
+    }
+    ,{
+        "key": "ctrl+f12",
+        "command": "editor.action.peekTypeDefinition",
+        "when": "editorTextFocus"
+    }
+    ,{
+        "key": "alt+f12",
+        "command": "workbench.action.terminal.toggleTerminal"
     }
 ]
