@@ -4,12 +4,11 @@
     "editor.fontLigatures": true,
     "editor.fontFamily": "Fira Code",
     "window.zoomLevel": 0,
-    "window.titleBarStyle": "native",
+    // "window.titleBarStyle": "native",
     "telemetry.enableTelemetry": false,
     "editor.formatOnPaste": true,
     "editor.dragAndDrop": true,
     "editor.cursorBlinking": "solid",
-    "window.nativeTabs": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.minimap.enabled": false,
     // JEST
@@ -24,5 +23,8 @@
     "tslint.nodePath": "./node_modules/.bin",
     "python.disablePromptForFeatures": [
         "pylint"
-    ]
+    ],
+    "window.nativeTabs": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.showTabs": true
 }
