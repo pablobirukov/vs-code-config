@@ -1,3 +1,6 @@
 # vs-code-config
 
-Check out the repo at /User/<name>/Library/Application Support/Code/User
+```bash
+cd /User/<name>/Library/Application Support/Code/
+git clone <repo_url> User
+```
