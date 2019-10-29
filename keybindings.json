@@ -51,4 +51,22 @@
         "key": "alt+cmd+w",
         "command": "workbench.action.closeOtherEditors"
     },
+    {
+        "key": "cmd+alt+0",
+        "command": "vscode.open", 
+        "args": "iawriter://open?path=${file}",
+    },
+    {
+        "key": "cmd+k i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "name": "Import external module."
+        }
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    }
 ]
