@@ -39,9 +39,8 @@
         "semicolon"
     ],
     "workbench.startupEditor": "newUntitledFile",
-    "window.nativeTabs": true,
     "peacock.affectTitleBar": false,
-    "peacock.affectActivityBar": true,
+    "peacock.affectActivityBar": false,
     "workbench.colorTheme": "Alabaster",
     "peacock.favoriteColors": [
         {
@@ -95,9 +94,12 @@
         {
             "name": "Vue Green",
             "value": "#42b883"
+        },
+        {
+            "name": "SanBox root",
+            "value": "#a99803"
         }
     ],
-    "liveshare.featureSet": "insiders",
     "search.exclude": {
         "coverage": true,
         "lib": true
@@ -111,5 +113,6 @@
     },
     "editor.fontLigatures": true,
     "editor.cursorSurroundingLines": 5,
-    "tslint.enable": false,
+    "workbench.activityBar.visible": false,
+    "window.nativeTabs": true,
 }
