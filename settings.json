@@ -30,14 +30,10 @@
             "autoFix": true
         }
     ],
+    "eslint.autoFixOnSave": ["evo/sort-imports"],
     "eslint.packageManager": "yarn",
     // TSLINT
     "tslint.nodePath": "./node_modules/.bin",
-    "tslint.autoFixOnSave": [
-        "evo-ordered-imports",
-        "trailing-comma",
-        "semicolon"
-    ],
     "workbench.startupEditor": "newUntitledFile",
     "peacock.affectTitleBar": false,
     "peacock.affectActivityBar": false,
@@ -115,4 +111,5 @@
     "editor.cursorSurroundingLines": 5,
     "workbench.activityBar.visible": false,
     "window.nativeTabs": true,
+    "terminal.integrated.rendererType": "dom",
 }
